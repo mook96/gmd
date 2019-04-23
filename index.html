@@ -1,0 +1,93 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+
+  <title>Our Mattresses</title>
+  <meta name="description" content="These are the mattresses we offer">
+  <meta name="Go Mattress Daddy" content="SitePoint">
+
+  <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
+
+
+  <style type="text/css">
+  	
+  	body{
+  		font-family: Arial;
+  	}
+
+	.grid-container {
+	  display: grid;
+	  grid-template: 400px 400px 400px 400px /auto auto auto;
+	  grid-gap: 10px;
+	  background-color: none;
+	  padding: 10px;
+	}
+
+	.grid-container > div {
+	  background-color: #fff;
+	  text-align: center;
+	  padding: 20px 0;
+	  font-size: 1rem;
+	}
+
+	.mattress-img {
+		width: 150px;
+	}
+
+	@media screen and (min-width: 768px){
+		.grid-container {
+		  display: grid;
+		  grid-template: 400px 400px 400px 400px /auto auto auto;
+		  grid-gap: 10px;
+		  padding: 10px;
+		}
+		.mattress-img {
+			width: 300px;
+		}
+	}
+
+  </style>
+
+</head>
+
+<body>
+
+	<div class="grid-container">
+
+		  <div class="item2">
+		  <img src="https://i.imgur.com/MjhoEXM.jpg" class="mattress-img">
+			<p>Regular Mattress</p></div>
+
+
+			<div class="item3">
+				<img src="https://i.imgur.com/pPxllvM.jpg" class="mattress-img">
+			<p>Pillow Top Mattress</p></div>  
+
+	  <div class="item1">
+	  	<img src="https://i.imgur.com/puNFlup.jpg" class="mattress-img">
+	  	<p>Memory Foam Mattress</p>
+	  </div>
+
+
+
+
+	  <div class="item4">
+		<img src="https://i.imgur.com/0e5r3h3.jpg" class="mattress-img">		
+	  <p>Box Spring Mattress</p></div>
+
+	  <div class="item5">
+		<img src="https://i.imgur.com/fpuFRvn.jpg" class="mattress-img">		
+	  <p>Bed Frames</p></div>
+
+	
+
+	</div>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
