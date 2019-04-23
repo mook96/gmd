@@ -19,11 +19,11 @@
   	}
 
 	.grid-container {
-	  display: grid;
-	  grid-template: 400px 400px 400px 400px /auto auto auto;
-	  grid-gap: 10px;
-	  background-color: none;
-	  padding: 10px;
+		background-color: none;
+		grid-template-columns: 100px 100px;
+		grid-template-rows: 80px 80px; 
+		grid-column-gap: 10px;
+		grid-row-gap: 15px;
 	}
 
 	.grid-container > div {
@@ -34,15 +34,20 @@
 	}
 
 	.mattress-img {
-		width: 150px;
+		width: 350px;
+		margin: 0 auto;
+	}
+
+	a {
+		color: blue;
 	}
 
 	@media screen and (min-width: 768px){
 		.grid-container {
 		  display: grid;
-		  grid-template: 400px 400px 400px 400px /auto auto auto;
-		  grid-gap: 10px;
-		  padding: 10px;
+		  grid-template:  400px 400px 400px /auto auto auto;
+		  grid-gap: 0px;
+		  padding: 0px;
 		}
 		.mattress-img {
 			width: 300px;
@@ -59,7 +64,7 @@
 
 		  <div class="item2">
 		  <img src="https://i.imgur.com/MjhoEXM.jpg" class="mattress-img">
-			<p>Regular Mattress</p></div>
+			<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdq4rzY4VqyVjOuRqFyfIdvXbwNRbFLKF2bOK75Mm85JjGbsA/viewform">Regular Mattress</a></p></div>
 
 
 			<div class="item3">
@@ -76,7 +81,7 @@
 
 	  <div class="item4">
 		<img src="https://i.imgur.com/0e5r3h3.jpg" class="mattress-img">		
-	  <p>Box Spring Mattress</p></div>
+	  <p>Box Springs</p></div>
 
 	  <div class="item5">
 		<img src="https://i.imgur.com/fpuFRvn.jpg" class="mattress-img">		
